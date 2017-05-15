@@ -35,7 +35,7 @@ Words.List[15] = "boomerang";
 Words.List[16] = "scyhte";
 Words.List[17] = "catapult";
 Words.List[18] = "hatchet";
-Words.List[19] = "pepperspray";
+Words.List[19] = "crowbar";
 
 Words.List[20] = "tazer";
 Words.List[21] = "hammer";
