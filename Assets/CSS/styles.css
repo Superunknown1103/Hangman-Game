@@ -1,0 +1,33 @@
+html {
+	background-color: tan;
+}
+
+.description {
+	font-size: 20px;
+	color: red;
+}
+
+#container {
+	width: 50%;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #dddddd;
+	margin: 10% auto;
+	text-align: center;
+}
+
+#letters a{
+	color: orange;
+	background-color:black;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#letters a:hover{
+	color: red;
+}
+
+#letters a .de{
+	color: white;
+}
