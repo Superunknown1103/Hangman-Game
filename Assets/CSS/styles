@@ -1,8 +1,0 @@
-html {
-	background-color: tan;
-}
-
-.description {
-	font-size: 14px;
-	color: blue;
-}

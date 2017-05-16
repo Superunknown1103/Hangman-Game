@@ -1,41 +1,68 @@
-html {
-	background-color: navajowhite;
+
+body {
+	background-image: url("brickwall.jpg")
 }
 
 h1 {
 	font-family: 'Inknut Antiqua', serif;
 	width: 100%;
 	text-align: center;
+	color: white;
 }
+
+#WORD {
+	color: black;
+}
+
+.torch1 {
+	float: left;
+	padding-left: 200px;
+}
+
+.torch2 {
+	float: right;
+	padding-right: 200px;
+}
+
 
 .description {
 	font-size: 20px;
-	color: red;
 	width: 100%;
 	text-align: center;
+	top-margin: 0;
 }
 
 #container {
 	width: 50%;
 	border-radius: 5px;
-	padding: 10px;
+	padding:10px;
 	background-color: tan;
-	margin: 10% auto;
+	margin: 5% auto;
 	text-align: center;
+	color: brown;
 }
 
-#letters a{
+
+#letters button{
 	color: orange;
 	background-color:black;
-	border-radius: 5px;
-	padding: 5px;
+	border-radius: 7px;
+	padding: 3px;
 	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 15px;
 }
 
-#letters a:hover{
+.link {
+	color: green;
+}
+
+#letters button:hover{
 	color: red;
 }
 
-#letters a .de{
+#letters button .disabled{
 	color: white;
 }
