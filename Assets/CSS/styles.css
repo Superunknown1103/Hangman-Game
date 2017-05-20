@@ -66,3 +66,8 @@ h1 {
 #letters button .disabled{
 	color: white;
 }
+
+#popup {
+	position: absolute;
+	display: none;
+}
